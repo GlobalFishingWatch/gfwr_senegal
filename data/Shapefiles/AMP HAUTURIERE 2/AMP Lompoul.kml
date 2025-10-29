@@ -1,0 +1,206 @@
+<Document>
+  <name>AMP Lompoul.kml</name>
+  <Style id="falseColor441">
+    <LineStyle>
+      <color>ffffff55</color>
+      <width>3.6</width>
+    </LineStyle>
+    <PolyStyle>
+      <colorMode>random</colorMode>
+      <fill>0</fill>
+    </PolyStyle>
+    <BalloonStyle>
+      <text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[initiatives_amp_new/ID]</td></tr>
+  <tr><td><b>LIBELLE</b></td><td>$[initiatives_amp_new/LIBELLE]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[initiatives_amp_new/AREA]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[initiatives_amp_new/PERIMETER]</td></tr>
+</table>]]></text>
+    </BalloonStyle>
+  </Style>
+  <StyleMap id="falseColor444">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#falseColor448</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#falseColor441</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="falseColor448">
+    <LineStyle>
+      <color>ffffff55</color>
+      <width>3.6</width>
+    </LineStyle>
+    <PolyStyle>
+      <colorMode>random</colorMode>
+      <fill>0</fill>
+    </PolyStyle>
+    <BalloonStyle>
+      <text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[initiatives_amp_new/ID]</td></tr>
+  <tr><td><b>LIBELLE</b></td><td>$[initiatives_amp_new/LIBELLE]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[initiatives_amp_new/AREA]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[initiatives_amp_new/PERIMETER]</td></tr>
+</table>]]></text>
+    </BalloonStyle>
+  </Style>
+  <Schema id="S_initiatives_amp_new_ISDD0" name="initiatives_amp_new">
+    <SimpleField name="ID" type="int">
+      <displayName><![CDATA[<b>ID</b>]]></displayName>
+    </SimpleField>
+    <SimpleField name="LIBELLE" type="string">
+      <displayName><![CDATA[<b>LIBELLE</b>]]></displayName>
+    </SimpleField>
+    <SimpleField name="AREA" type="double">
+      <displayName><![CDATA[<b>AREA</b>]]></displayName>
+    </SimpleField>
+    <SimpleField name="PERIMETER" type="double">
+      <displayName><![CDATA[<b>PERIMETER</b>]]></displayName>
+    </SimpleField>
+  </Schema>
+  <Schema id="AMP Lompoul.schema">
+    <SimpleField name="type" type="string"/>
+    <SimpleField name="tident" type="string"/>
+    <SimpleField name="ident" type="string"/>
+    <SimpleField name="Latitude" type="float"/>
+    <SimpleField name="Longitude" type="float"/>
+    <SimpleField name="y_proj" type="float"/>
+    <SimpleField name="x_proj" type="float"/>
+    <SimpleField name="comment" type="string"/>
+    <SimpleField name="new_trk" type="string"/>
+    <SimpleField name="new_seg" type="string"/>
+    <SimpleField name="display" type="string"/>
+    <SimpleField name="color" type="string"/>
+    <SimpleField name="altitude" type="float"/>
+    <SimpleField name="depth" type="float"/>
+    <SimpleField name="temp" type="float"/>
+    <SimpleField name="time" type="string"/>
+    <SimpleField name="model" type="string"/>
+    <SimpleField name="filename" type="string"/>
+    <SimpleField name="ltime" type="string"/>
+    <SimpleField name="desc" type="string"/>
+    <SimpleField name="link" type="string"/>
+  </Schema>
+  <Placemark>
+    <name>AMP Lompoul</name>
+    <atom:link href="https://www.google.com/earth/about/versions/#earth-pro" rel="app" title="Google Earth Pro 7.3.6.10201"/>
+    <styleUrl>#falseColor444</styleUrl>
+    <ExtendedData>
+      <SchemaData schemaUrl="#S_initiatives_amp_new_ISDD0">
+        <SimpleData name="ID">
+0        </SimpleData>
+        <SimpleData name="LIBELLE">
+AMP Lompoul        </SimpleData>
+        <SimpleData name="AREA">
+2.9386e+09        </SimpleData>
+        <SimpleData name="PERIMETER">
+223554        </SimpleData>
+      </SchemaData>
+    </ExtendedData>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -16.9806290915902,15.8161330364574,0
+            -16.9810629020546,15.8154208885543,0
+            -17.0630495387363,15.6808307479665,0
+            -17.1053459218581,15.6215745577951,0
+            -17.1297526712463,15.5873813035149,0
+            -17.1322331483506,15.5835690128891,0
+            -17.2218497081758,15.4458356831416,0
+            -17.299977997422,15.340534667118,0
+            -17.3002338697764,15.3401898033158,0
+            -16.9461663524682,15.1380845983585,0
+            -16.8921733985098,15.2042878828456,0
+            -16.8253705396013,15.3087611838611,0
+            -16.7778921596062,15.3791326973254,0
+            -16.7671600674764,15.4025477907499,0
+            -16.7304537946283,15.4579800905104,0
+            -16.6526264657152,15.5709853012794,0
+            -16.5921162257739,15.6689972343886,0
+            -16.5833926868,15.6733025038397,0
+            -16.9806290915902,15.8161330364574,0
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+  <Document>
+    <name>AMP Lompoul</name>
+    <Placemark>
+      <ExtendedData>
+        <SchemaData schemaUrl="#AMP Lompoul.schema">
+          <SimpleData name="type">
+TRACK          </SimpleData>
+          <SimpleData name="tident">
+AMP Lompoul          </SimpleData>
+          <SimpleData name="ident">
+AMP Lompoul          </SimpleData>
+          <SimpleData name="Latitude">
+15.81613304          </SimpleData>
+          <SimpleData name="Longitude">
+-16.98062909          </SimpleData>
+          <SimpleData name="y_proj">
+1749596.85453484          </SimpleData>
+          <SimpleData name="x_proj">
+287860.45665560          </SimpleData>
+          <SimpleData name="comment">
+          </SimpleData>
+          <SimpleData name="display">
+          </SimpleData>
+          <SimpleData name="color">
+          </SimpleData>
+          <SimpleData name="altitude">
+0.00          </SimpleData>
+          <SimpleData name="depth">
+0.00          </SimpleData>
+          <SimpleData name="temp">
+0.00          </SimpleData>
+          <SimpleData name="time">
+          </SimpleData>
+          <SimpleData name="model">
+          </SimpleData>
+          <SimpleData name="filename">
+          </SimpleData>
+          <SimpleData name="ltime">
+          </SimpleData>
+          <SimpleData name="desc">
+          </SimpleData>
+          <SimpleData name="link">
+          </SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                287500.456655601,1749596.85453484,0
+                287453.233579654,1749518.47981397,0
+                278523.024836732,1734707.45540643,0
+                273922.933370272,1728193.87550836,0
+                271267.362794879,1724435.55902666,0
+                270997.055657203,1724016.28962213,0
+                261225.046454128,1708869.96868349,0
+                252713.427116037,1697302.87503488,0
+                252685.538138719,1697264.99583332,0
+                290512.488447856,1674526.63233603,0
+                296379.562377237,1681801.80401546,0
+                303654.734049702,1693301.26892807,0
+                308817.759107583,1701045.80652226,0
+                309991.173893472,1703627.31905365,0
+                313980.784165472,1709729.07594604,0
+                322429.370623833,1722167.2726882,0
+                329000.493424795,1732962.68872855,0
+                329939.225253495,1733432.05464335,0
+                287500.456655601,1749596.85453484,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Document>
+</Document>

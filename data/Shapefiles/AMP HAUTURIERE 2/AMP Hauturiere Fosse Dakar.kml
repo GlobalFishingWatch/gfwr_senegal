@@ -1,0 +1,179 @@
+<Document>
+  <name>AMP Hauturiere Fosse Dakar.kml</name>
+  <StyleMap id="falseColor4400">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#falseColor446</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#falseColor447</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="falseColor446">
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>4.5</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>ff0000ff</color>
+      <colorMode>random</colorMode>
+      <fill>0</fill>
+    </PolyStyle>
+    <BalloonStyle>
+      <text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[initiatives_amp_new/ID]</td></tr>
+  <tr><td><b>LIBELLE</b></td><td>$[initiatives_amp_new/LIBELLE]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[initiatives_amp_new/AREA]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[initiatives_amp_new/PERIMETER]</td></tr>
+</table>]]></text>
+    </BalloonStyle>
+  </Style>
+  <Style id="falseColor447">
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>4.5</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>ff0000ff</color>
+      <colorMode>random</colorMode>
+      <fill>0</fill>
+    </PolyStyle>
+    <BalloonStyle>
+      <text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[initiatives_amp_new/ID]</td></tr>
+  <tr><td><b>LIBELLE</b></td><td>$[initiatives_amp_new/LIBELLE]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[initiatives_amp_new/AREA]</td></tr>
+  <tr><td><b>PERIMETER</b></td><td>$[initiatives_amp_new/PERIMETER]</td></tr>
+</table>]]></text>
+    </BalloonStyle>
+  </Style>
+  <Schema id="AMP Hauturiere Fosse Dakar.schema">
+    <SimpleField name="type" type="string"/>
+    <SimpleField name="tident" type="string"/>
+    <SimpleField name="ident" type="string"/>
+    <SimpleField name="Latitude" type="float"/>
+    <SimpleField name="Longitude" type="float"/>
+    <SimpleField name="y_proj" type="float"/>
+    <SimpleField name="x_proj" type="float"/>
+    <SimpleField name="comment" type="string"/>
+    <SimpleField name="new_trk" type="string"/>
+    <SimpleField name="new_seg" type="string"/>
+    <SimpleField name="display" type="string"/>
+    <SimpleField name="color" type="string"/>
+    <SimpleField name="altitude" type="float"/>
+    <SimpleField name="depth" type="float"/>
+    <SimpleField name="temp" type="float"/>
+    <SimpleField name="time" type="string"/>
+    <SimpleField name="model" type="string"/>
+    <SimpleField name="filename" type="string"/>
+    <SimpleField name="ltime" type="string"/>
+    <SimpleField name="desc" type="string"/>
+    <SimpleField name="link" type="string"/>
+  </Schema>
+  <Placemark>
+    <name>AMP Hauturiere Fosse Dakar</name>
+    <atom:link href="https://www.google.com/earth/about/versions/#earth-pro" rel="app" title="Google Earth Pro 7.3.6.10201"/>
+    <styleUrl>#falseColor4400</styleUrl>
+    <Polygon>
+      <tessellate>1</tessellate>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -17.4267987959871,14.4956592015007,0
+            -17.5746984951554,14.636262081794,0
+            -17.5813149616301,14.6617793674786,0
+            -17.5881500206159,14.7989681841166,0
+            -17.7603312458531,14.9757082236647,0
+            -18.2086775842795,15.0424562104393,0
+            -18.6444603328303,15.112952861279,0
+            -18.6815385695539,14.8748472529825,0
+            -18.7258399348553,14.6534878377848,0
+            -18.8216841547976,14.1479672114761,0
+            -18.8998622714835,13.7292304975657,0
+            -18.4930092545879,13.6733878428693,0
+            -18.2946747765512,13.8934013788278,0
+            -18.0575534646971,14.1286515655301,0
+            -17.5810077451498,14.1277864985631,0
+            -17.4205184892828,14.1336989233689,0
+            -17.4267987959871,14.4956592015007,0
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+  <Document>
+    <name>AMP Hauturiere Fosse Dakar</name>
+    <Placemark>
+      <ExtendedData>
+        <SchemaData schemaUrl="#AMP Hauturiere Fosse Dakar.schema">
+          <SimpleData name="type">
+TRACK          </SimpleData>
+          <SimpleData name="tident">
+AMP Hauturiere Fosse Da          </SimpleData>
+          <SimpleData name="ident">
+AMP Hauturiere Fosse Da          </SimpleData>
+          <SimpleData name="Latitude">
+14.49565920          </SimpleData>
+          <SimpleData name="Longitude">
+-17.42679880          </SimpleData>
+          <SimpleData name="y_proj">
+1603932.05447246          </SimpleData>
+          <SimpleData name="x_proj">
+238430.68163817          </SimpleData>
+          <SimpleData name="comment">
+          </SimpleData>
+          <SimpleData name="display">
+          </SimpleData>
+          <SimpleData name="color">
+          </SimpleData>
+          <SimpleData name="altitude">
+0.00          </SimpleData>
+          <SimpleData name="depth">
+0.00          </SimpleData>
+          <SimpleData name="temp">
+0.00          </SimpleData>
+          <SimpleData name="time">
+          </SimpleData>
+          <SimpleData name="model">
+          </SimpleData>
+          <SimpleData name="filename">
+          </SimpleData>
+          <SimpleData name="ltime">
+          </SimpleData>
+          <SimpleData name="desc">
+          </SimpleData>
+          <SimpleData name="link">
+          </SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                238070.681638168,1603932.05447246,0
+                222296.346417177,1619670.95949549,0
+                221615.411300893,1622503.82846703,0
+                221053.346790621,1637699.16026795,0
+                202750.106730645,1657488.30294445,0
+                154594.215120805,1665531.28143667,0
+                107809.839675458,1674071.38749076,0
+                103379.460091995,1647755.01509673,0
+                98198.1971784444,1623306.11270599,0
+                86927.4439830147,1567458.82808541,0
+                77711.3023091849,1521192.70184665,0
+                121691.165960213,1514330.93035025,0
+                143507.280518588,1538397.69586775,0
+                169497.962224672,1564106.35475312,0
+                220986.086109174,1563391.63752309,0
+                238329.225290705,1563861.23455503,0
+                238070.681638168,1603932.05447246,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Document>
+</Document>

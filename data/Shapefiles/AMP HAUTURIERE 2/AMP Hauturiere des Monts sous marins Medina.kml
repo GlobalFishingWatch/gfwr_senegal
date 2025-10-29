@@ -1,0 +1,246 @@
+<Document>
+  <Schema id="TRACK" name="TRACK">
+    <SimpleField name="type" type="string"/>
+    <SimpleField name="ident" type="string"/>
+    <SimpleField name="Latitude" type="float"/>
+    <SimpleField name="Longitude" type="float"/>
+    <SimpleField name="y_proj" type="float"/>
+    <SimpleField name="x_proj" type="float"/>
+    <SimpleField name="new_trk" type="string"/>
+    <SimpleField name="new_seg" type="string"/>
+    <SimpleField name="display" type="string"/>
+    <SimpleField name="color" type="string"/>
+    <SimpleField name="altitude" type="float"/>
+    <SimpleField name="depth" type="float"/>
+    <SimpleField name="temp" type="float"/>
+    <SimpleField name="time" type="string"/>
+    <SimpleField name="model" type="string"/>
+    <SimpleField name="filename" type="string"/>
+    <SimpleField name="ltime" type="string"/>
+    <SimpleField name="desc" type="string"/>
+    <SimpleField name="link" type="string"/>
+  </Schema>
+  <Schema id="AMP Hauturiere des Monts sous marins Medina.schema">
+    <SimpleField name="type" type="string"/>
+    <SimpleField name="tident" type="string"/>
+    <SimpleField name="ident" type="string"/>
+    <SimpleField name="Latitude" type="float"/>
+    <SimpleField name="Longitude" type="float"/>
+    <SimpleField name="y_proj" type="float"/>
+    <SimpleField name="x_proj" type="float"/>
+    <SimpleField name="comment" type="string"/>
+    <SimpleField name="new_trk" type="string"/>
+    <SimpleField name="new_seg" type="string"/>
+    <SimpleField name="display" type="string"/>
+    <SimpleField name="color" type="string"/>
+    <SimpleField name="altitude" type="float"/>
+    <SimpleField name="depth" type="float"/>
+    <SimpleField name="temp" type="float"/>
+    <SimpleField name="time" type="string"/>
+    <SimpleField name="model" type="string"/>
+    <SimpleField name="filename" type="string"/>
+    <SimpleField name="ltime" type="string"/>
+    <SimpleField name="desc" type="string"/>
+    <SimpleField name="link" type="string"/>
+  </Schema>
+  <Schema id="AMP Hauturiere des Monts sous marins Medina.schema">
+    <SimpleField name="type" type="string"/>
+    <SimpleField name="tident" type="string"/>
+    <SimpleField name="ident" type="string"/>
+    <SimpleField name="Latitude" type="float"/>
+    <SimpleField name="Longitude" type="float"/>
+    <SimpleField name="y_proj" type="float"/>
+    <SimpleField name="x_proj" type="float"/>
+    <SimpleField name="comment" type="string"/>
+    <SimpleField name="new_trk" type="string"/>
+    <SimpleField name="new_seg" type="string"/>
+    <SimpleField name="display" type="string"/>
+    <SimpleField name="color" type="string"/>
+    <SimpleField name="altitude" type="float"/>
+    <SimpleField name="depth" type="float"/>
+    <SimpleField name="temp" type="float"/>
+    <SimpleField name="time" type="string"/>
+    <SimpleField name="model" type="string"/>
+    <SimpleField name="filename" type="string"/>
+    <SimpleField name="ltime" type="string"/>
+    <SimpleField name="desc" type="string"/>
+    <SimpleField name="link" type="string"/>
+  </Schema>
+  <Folder>
+    <name>TRACK</name>
+    <Placemark>
+      <name>AMP Hauturiere des Mont</name>
+      <description/>
+      <Style>
+        <LineStyle>
+          <color>ff0000ff</color>
+        </LineStyle>
+        <PolyStyle>
+          <fill>0</fill>
+        </PolyStyle>
+      </Style>
+      <ExtendedData>
+        <SchemaData schemaUrl="#TRACK">
+          <SimpleData name="type">
+
+TRACK                    </SimpleData>
+          <SimpleData name="ident">
+
+AMP Hauturiere des Mont                    </SimpleData>
+          <SimpleData name="Latitude">
+
+15.68083075                    </SimpleData>
+          <SimpleData name="Longitude">
+
+-17.06304954                    </SimpleData>
+          <SimpleData name="y_proj">
+
+1734707.45540643                    </SimpleData>
+          <SimpleData name="x_proj">
+
+278883.02483673                    </SimpleData>
+          <SimpleData name="display">
+
+                    </SimpleData>
+          <SimpleData name="color">
+
+                    </SimpleData>
+          <SimpleData name="altitude">
+
+0.00                    </SimpleData>
+          <SimpleData name="depth">
+
+0.00                    </SimpleData>
+          <SimpleData name="temp">
+
+0.00                    </SimpleData>
+          <SimpleData name="time">
+
+                    </SimpleData>
+          <SimpleData name="model">
+
+                    </SimpleData>
+          <SimpleData name="filename">
+
+                    </SimpleData>
+          <SimpleData name="ltime">
+
+                    </SimpleData>
+          <SimpleData name="desc">
+
+                    </SimpleData>
+          <SimpleData name="link">
+
+                    </SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -17.0630495387315,15.6808307479658,0
+                -16.9810629020507,15.8154208885537,0
+                -16.9804898445439,15.81630342525,0
+                -17.4288617421687,15.9292239321728,0
+                -17.943830479434,15.9292239321683,0
+                -18.3507907923833,15.2040245118693,0
+                -17.8786024200647,15.1581306815933,0
+                -17.6930966373182,15.1635213527679,0
+                -17.4308514118437,14.9041082622664,0
+                -17.3086852032277,14.9089744687427,0
+                -17.2756807103038,14.9253082672543,0
+                -17.1804652050321,15.0275612290466,0
+                -17.4210516658114,15.2103344855913,0
+                -17.3074604568553,15.3421612887345,0
+                -17.2999779974131,15.3405346671167,0
+                -17.2218497081684,15.4458356831405,0
+                -17.1322331483448,15.5835690128882,0
+                -17.1093451065017,15.6151014842742,0
+                -17.1053459218526,15.6215745577943,0
+                -17.0630495387315,15.6808307479658,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  <Document>
+    <name>AMP Hauturiere des Monts sous marins Medina</name>
+    <Placemark>
+      <ExtendedData>
+        <SchemaData schemaUrl="#AMP Hauturiere des Monts sous marins Medina.schema">
+          <SimpleData name="type">
+TRACK          </SimpleData>
+          <SimpleData name="tident">
+Track21          </SimpleData>
+          <SimpleData name="ident">
+T21          </SimpleData>
+          <SimpleData name="Latitude">
+1734707.45540634          </SimpleData>
+          <SimpleData name="Longitude">
+278523.02483726          </SimpleData>
+          <SimpleData name="y_proj">
+0.00000000          </SimpleData>
+          <SimpleData name="x_proj">
+0.00000000          </SimpleData>
+          <SimpleData name="comment">
+          </SimpleData>
+          <SimpleData name="display">
+          </SimpleData>
+          <SimpleData name="color">
+          </SimpleData>
+          <SimpleData name="altitude">
+0.00          </SimpleData>
+          <SimpleData name="depth">
+0.00          </SimpleData>
+          <SimpleData name="temp">
+0.00          </SimpleData>
+          <SimpleData name="time">
+          </SimpleData>
+          <SimpleData name="model">
+          </SimpleData>
+          <SimpleData name="filename">
+          </SimpleData>
+          <SimpleData name="ltime">
+          </SimpleData>
+          <SimpleData name="desc">
+          </SimpleData>
+          <SimpleData name="link">
+          </SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+                0,0,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Document>
+</Document>
