@@ -3,7 +3,7 @@ library(readxl)
 library(stringr)
 
 
-donnees_xlsx <- read_xlsx("./donnees/LISTE DES NAVIRES BENEFICIAIRES DE LICENCE PECHE 2025.xlsx")
+donnees_xlsx <- read_xlsx("./data/LISTE DES NAVIRES BENEFICIAIRES DE LICENCE PECHE 2025.xlsx")
 str(donnees_xlsx) # On observe les colonnes et ses premières valeurs
 
 View(donnees_xlsx) # On voit toute suite des erreurs de type fautes de frappe
@@ -80,4 +80,4 @@ donnees_xlsx$OPTION <- gsub(pattern = "Thonler", replacement = "Thonier", x = do
 levels(as.factor(donnees_xlsx$OPTION)) # c'est bon
 
 # Sauver le dataframe dans un nouveau fichier
-write.csv(x = donnees_xlsx, file = "./donnees/ListeNaviresPreTraitee.csv")
+write.csv(x = donnees_xlsx, file = "./data/ListeNaviresPreTraitee.csv")
